@@ -1,3 +1,3 @@
 # basic-calculator
 basic calculator
-<img src="C:\Users\admin\Desktop\nupur\project\simple calculator">
+<a href="https://github.com/nupursolanki999/basic-calculator/blob/main/calculatorimg.png"> Preview File </a>
