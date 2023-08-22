@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button {
+    box-shadow: inset -5px -5px 12px rgb(230, 230, 240);
+    border-radius: 5px;
+    outline-style: outset;
+    margin: 0px 2px;
+}
+
+.scn {
+    box-shadow: inset -5px -5px 20px rgb(237, 237, 244);
+    padding-bottom: 5px;
+    border-radius: 5px;
+    outline-style: outset;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.main {
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 5px;
+    /* margin-left: 160px; */
+    width: 180px;
+    height: 250px;
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: outset 10px 10px 20px rgb(9, 9, 9);
+    padding-top: 10px;
+
+}

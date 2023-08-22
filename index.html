@@ -1,0 +1,57 @@
+<html lang="en">
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-5.0.2-dist/css/bootstrap.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <form class="calculatorform" name="calculatorform">
+                <div class="screen  ">
+                    <input type="text" class="scn" style="width: 150px ;" class="screen" name="screen">
+                </div>
+                <div class="clearbtn ">
+                    <input type="button" class="button" style="width: 150px;" value="clear" onclick="Clear()">
+                </div>
+                <div class="btn  d-flex">
+                    <input type="button" class="button" style="width: 50px;" value="7" onclick="valuebutton(this)">
+                    <input type="button" class="button" style="width: 50px;" value="8" onclick="valuebutton(this)">
+                    <input type="button" class="button" style="width: 50px;" value="9" onclick="valuebutton(this)">
+                    <input type="button" class="button" style="width: 50px;" value="/" onclick="valuebutton(this)">
+                </div>
+
+                <div class="btn  d-flex">
+                    <input type="button" class="button" style="width: 50px;" value="4" onclick="valuebutton(this)">
+                    <input type="button" class="button" style="width: 50px;" value="5" onclick="valuebutton(this)">
+                    <input type="button" class="button" style="width: 50px;" value="6" onclick="valuebutton(this)">
+                    <input type="button" class="button" style="width: 50px;" value="*" onclick="valuebutton(this)">
+                </div>
+
+                <div class="btn  d-flex">
+                    <input type="button" class="button" style="width: 50px;" value="1" onclick="valuebutton(this)">
+                    <input type="button" class="button" style="width: 50px;" value="2" onclick="valuebutton(this)">
+                    <input type="button" class="button" style="width: 50px;" value="3" onclick="valuebutton(this)">
+                    <input type="button" class="button" style="width: 50px;" value="-" onclick="valuebutton(this)">
+                </div>
+
+                <div class="btn  d-flex">
+                    <input type="button" class="button" style="width: 50px;" value="0" onclick="valuebutton(this)">
+                    <input type="button" class="button" style="width: 50px;" value="." onclick="valuebutton(this)">
+                    <input type="button" class="button" style="width: 50px;" value="=" onclick="calculate()">
+                    <input type="button" class="button" style="width: 50px;" value="+" onclick="valuebutton(this)">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+
+</html>
